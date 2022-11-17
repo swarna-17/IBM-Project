@@ -7,7 +7,6 @@ void setup()
   pinMode(var2,INPUT);
   pinMode(12,OUTPUT);
 }
-
 void loop()
 {
   //ultrasonic sensor

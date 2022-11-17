@@ -5,7 +5,6 @@ GPIO.setup(11, GPIO.OUT)
 GPIO.setup(12, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
 
-
 while True:
 	GPIO.output(11,True)  ## Turn on redLed
 	time.sleep(1)         ## Wait for one second
